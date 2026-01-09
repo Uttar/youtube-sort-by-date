@@ -1,19 +1,26 @@
-YouTube Sort by Date
+# YouTube Sort by Date
 
-Restore the missing "Sort by Date" functionality on YouTube!
+A lightweight Google Chrome extension that restores the missing "Sort by Date" functionality in YouTube search results and video lists.
 
-YouTube recently removed the ability to sort search results by upload date in certain regions and views. This lightweight extension adds a "Sort by Date" button directly to the YouTube search filters, allowing you to instantly reorder videos from newest to oldest.
+## Features
+- Adds a neutral "Sort by Date" button to the YouTube interface.
+- Reorders videos from newest to oldest based on upload time.
+- Works on search results, channels, and home feed.
+- Intelligent parsing of YouTube's relative dates (e.g., "2 hours ago", "5 days ago").
 
-Key Features:
-- Adds a "Sort by Date" button to the search filter menu.
-- Works on search results, channel pages, and Home feed.
-- Intelligent date parsing (supports "hours ago", "days ago", "weeks ago", etc.).
-- Preserves page layout and non-video elements (like Shorts shelves or ads).
-- Minimalist design that blends perfectly with the native YouTube UI.
+## Manual Installation (Chrome)
 
-How to use:
-1. Perform a search on YouTube or visit a channel's video list.
-2. Click the "Filters" button (if in search) or find the "Sort by Date" button in the menu area.
-3. Click "Sort by Date" to reorder the current list of videos by their upload time.
+If you want to install this extension manually from source:
 
-Note: For best results, ensure your YouTube interface language is set to English.
+1. **Download the source code**: Clone this repository or download and extract the ZIP archive.
+2. **Open Chrome Extensions**: In your browser, go to `chrome://extensions/`.
+3. **Enable Developer Mode**: Toggle the switch in the top right corner.
+4. **Load the extension**:
+   - Click the **Load unpacked** button.
+   - Navigate to the folder containing the extension files (the one with `manifest.json`).
+   - Select the folder and click **Open/Select Folder**.
+5. **Success!**: The extension is now active. Refresh your YouTube page to see the "Sort by Date" button.
+
+## Important Note
+For the date sorting to work accurately, ensure your **YouTube interface language is set to English**. The extension parses date strings like "ago", "hours", "days", etc.
+

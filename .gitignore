@@ -1,6 +1,7 @@
 # Extensions and Archives
 *.zip
 *.crx
+DESCRIPTION.md
 
 .idea/
 
