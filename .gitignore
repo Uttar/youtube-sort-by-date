@@ -2,6 +2,8 @@
 *.zip
 *.crx
 DESCRIPTION.md
+icon.png
+output.png
 
 .idea/
 
