@@ -1,0 +1,18 @@
+{
+  "manifest_version": 3,
+  "name": "YouTube Sort by Date",
+  "version": "1.0",
+  "description": "Sort YouTube videos by date (from newest to oldest)",
+  "permissions": ["activeTab"],
+  "content_scripts": [
+    {
+      "matches": ["*://www.youtube.com/*"],
+      "js": ["content.js"],
+      "run_at": "document_idle"
+    }
+  ],
+  "icons": {
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  }
+}

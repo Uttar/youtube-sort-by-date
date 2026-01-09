@@ -1,0 +1,6 @@
+# Extensions and Archives
+*.zip
+*.crx
+
+.idea/
+
